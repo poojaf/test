@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Untitled layer</name>
+    <name>Untitled map</name>
+    <description/>
     <Style id="icon-1502-F57C00-nodesc-normal">
       <IconStyle>
         <color>ff007cf5</color>
@@ -80,38 +81,41 @@
         <styleUrl>#poly-880E4F-13000-120-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Placemark>
-      <name>sundarvan</name>
-      <styleUrl>#poly-880E4F-13000-120-nodesc</styleUrl>
-      <Polygon>
-        <outerBoundaryIs>
-          <LinearRing>
-            <tessellate>1</tessellate>
-            <coordinates>
-              72.521225,23.027481,0
-              72.520238,23.02633,0
-              72.520925,23.025837,0
-              72.520946,23.025748,0
-              72.521113,23.025526,0
-              72.521349,23.02558,0
-              72.521418,23.025743,0
-              72.521515,23.026444,0
-              72.521467,23.026671,0
-              72.52174,23.027185,0
-              72.521225,23.027481,0
-            </coordinates>
-          </LinearRing>
-        </outerBoundaryIs>
-      </Polygon>
-    </Placemark>
-    <Placemark>
-      <name>Sundarvan</name>
-      <styleUrl>#icon-1502-F57C00-nodesc</styleUrl>
-      <Point>
-        <coordinates>
-          72.5215051,23.0271298,0
-        </coordinates>
-      </Point>
-    </Placemark>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>sundarvan</name>
+        <styleUrl>#poly-880E4F-13000-120-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                72.521225,23.027481,0
+                72.520238,23.02633,0
+                72.520925,23.025837,0
+                72.520946,23.025748,0
+                72.521113,23.025526,0
+                72.521349,23.02558,0
+                72.521418,23.025743,0
+                72.521515,23.026444,0
+                72.521467,23.026671,0
+                72.52174,23.027185,0
+                72.521225,23.027481,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Sundarvan</name>
+        <styleUrl>#icon-1502-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            72.5215051,23.0271298,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
   </Document>
 </kml>
