@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Untitled layer</name>
+    <Style id="poly-880E4F-12900-120-nodesc-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>12.9</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>784f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-880E4F-12900-120-nodesc-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>19.35</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>784f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-12900-120-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-12900-120-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-12900-120-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>sundarvan</name>
+      <styleUrl>#poly-880E4F-12900-120-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              72.5212254,23.0274808,0
+              72.5202383,23.0263305,0
+              72.520925,23.0258368,0
+              72.5209464,23.0257479,0
+              72.5211127,23.0255257,0
+              72.5213488,23.02558,0
+              72.5214185,23.025743,0
+              72.5215151,23.026444,0
+              72.5214668,23.0266711,0
+              72.5217404,23.0271846,0
+              72.5212254,23.0274808,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
