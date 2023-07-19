@@ -42,7 +42,7 @@
         <styleUrl>#icon-1522-795548-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1603-E65100-nodesc-normal">
+    <Style id="icon-1603-E65100-normal">
       <IconStyle>
         <color>ff0051e6</color>
         <scale>1</scale>
@@ -53,11 +53,8 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="icon-1603-E65100-nodesc-highlight">
+    <Style id="icon-1603-E65100-highlight">
       <IconStyle>
         <color>ff0051e6</color>
         <scale>1</scale>
@@ -68,18 +65,51 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1603-E65100-nodesc">
+    <StyleMap id="icon-1603-E65100">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1603-E65100-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1603-E65100-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1603-E65100-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1603-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-558B2F-1200-77-nodesc-normal">
@@ -122,7 +152,13 @@
     </StyleMap>
     <Placemark>
       <name>Sundarvan</name>
-      <styleUrl>#icon-1603-E65100-nodesc</styleUrl>
+      <description><![CDATA[<img src="https://doc-04-44-mymaps.googleusercontent.com/untrusted/hostedimage/532iudaj5c8as6q8do2ti1ig7o/016ekksvb4oj2972vpak47pets/1689765535250/gS-uuhIJBldGp4JmLYgY0UhMEdTseGHu/00541297776497617108/5ACnmet6H1AcoIIJ-GdmC-WJuKRfBilOBJDcAQDcQTyYc0Np-v8vZy0F_4jYIqVz9kB7VGsoQFM7n43FLhDnaipGUcNN10YZggDp89-rqE3wJjZatwD44x0L3ih-Q1eDrQl3aGD_U261dGA_8-oPItUSs1ugjF8kMpI97j8cAkh1n6BtAYRNNaGNRFyUSnK5NssR-XrxCQCFEZbICO2sZwI6GPkIQaMvj-nTCPghjkiHWSlfdNEo?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+      <styleUrl>#icon-1603-E65100</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-04-44-mymaps.googleusercontent.com/untrusted/hostedimage/532iudaj5c8as6q8do2ti1ig7o/016ekksvb4oj2972vpak47pets/1689765535250/gS-uuhIJBldGp4JmLYgY0UhMEdTseGHu/00541297776497617108/5ACnmet6H1AcoIIJ-GdmC-WJuKRfBilOBJDcAQDcQTyYc0Np-v8vZy0F_4jYIqVz9kB7VGsoQFM7n43FLhDnaipGUcNN10YZggDp89-rqE3wJjZatwD44x0L3ih-Q1eDrQl3aGD_U261dGA_8-oPItUSs1ugjF8kMpI97j8cAkh1n6BtAYRNNaGNRFyUSnK5NssR-XrxCQCFEZbICO2sZwI6GPkIQaMvj-nTCPghjkiHWSlfdNEo?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
       <Point>
         <coordinates>
           72.5215051,23.0271298,0
@@ -158,6 +194,21 @@
       <Point>
         <coordinates>
           72.5209768,23.026567,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Test</name>
+      <description><![CDATA[<img src="https://doc-10-44-mymaps.googleusercontent.com/untrusted/hostedimage/532iudaj5c8as6q8do2ti1ig7o/fai2n01euse7litdoh0odun8d8/1689765535250/gS-uuhIJBldGp4JmLYgY0UhMEdTseGHu/00541297776497617108/5ACnmet6CHFHwcoVaXFXLqJQ936MsSO9lh-BWM9L3Dfn-MUFkraAei_MABYN3oLrLKTMKi80zr6gU69b-EzxvcVJ2lbcw9LfkQn8Z5kliWXiI6SSXJ4J2TEWQ1b8Dj-N0nk7YHYL2plyHDZLOS6Tg08SS0_AmXxmutK-Pfx-YXa_COAh-28xgCCg_g3I3ixSPokRMRrC3spxk4GLvpS7eamESZpkJBsMkpfaeXAgO6rmRbdXqqbw?session=0&fife" height="200" width="auto" /><br><br><br><br><img src="https://doc-0g-44-mymaps.googleusercontent.com/untrusted/hostedimage/532iudaj5c8as6q8do2ti1ig7o/dbhmaddrdcs2j1k2ubovo4u804/1689765535250/gS-uuhIJBldGp4JmLYgY0UhMEdTseGHu/00541297776497617108/5ACnmet7eDjPONOjPykDDh_WB7H560HtA-Je9j3YF6R2BqDokjH94VKDxRy0dyWrHF7cyHFEE86VWAsilRdywiVVrauStSyMuf-JM3qT60sFKIjK1jQtdGmipgx9WWsTTU8IIg8aIhAu7VA_3UL8OBdyiEgTmqLs-oiubaCaMR88LSVxwuYFJuF0vD_OLVhCWxLy0OdOD91ft1mZHoW4TS-oKrPPyl6ZLWfNyykLakZmjSfE1Wzg?session=0&fife" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-10-44-mymaps.googleusercontent.com/untrusted/hostedimage/532iudaj5c8as6q8do2ti1ig7o/fai2n01euse7litdoh0odun8d8/1689765535250/gS-uuhIJBldGp4JmLYgY0UhMEdTseGHu/00541297776497617108/5ACnmet6CHFHwcoVaXFXLqJQ936MsSO9lh-BWM9L3Dfn-MUFkraAei_MABYN3oLrLKTMKi80zr6gU69b-EzxvcVJ2lbcw9LfkQn8Z5kliWXiI6SSXJ4J2TEWQ1b8Dj-N0nk7YHYL2plyHDZLOS6Tg08SS0_AmXxmutK-Pfx-YXa_COAh-28xgCCg_g3I3ixSPokRMRrC3spxk4GLvpS7eamESZpkJBsMkpfaeXAgO6rmRbdXqqbw?session=0&fife https://doc-0g-44-mymaps.googleusercontent.com/untrusted/hostedimage/532iudaj5c8as6q8do2ti1ig7o/dbhmaddrdcs2j1k2ubovo4u804/1689765535250/gS-uuhIJBldGp4JmLYgY0UhMEdTseGHu/00541297776497617108/5ACnmet7eDjPONOjPykDDh_WB7H560HtA-Je9j3YF6R2BqDokjH94VKDxRy0dyWrHF7cyHFEE86VWAsilRdywiVVrauStSyMuf-JM3qT60sFKIjK1jQtdGmipgx9WWsTTU8IIg8aIhAu7VA_3UL8OBdyiEgTmqLs-oiubaCaMR88LSVxwuYFJuF0vD_OLVhCWxLy0OdOD91ft1mZHoW4TS-oKrPPyl6ZLWfNyykLakZmjSfE1Wzg?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          72.5210734,23.0262782,0
         </coordinates>
       </Point>
     </Placemark>
