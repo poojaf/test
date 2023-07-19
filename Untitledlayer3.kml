@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Untitled layer</name>
+    <Style id="icon-1899-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://raw.githubusercontent.com/poojaf/test/main/favicon.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://raw.githubusercontent.com/poojaf/test/main/favicon.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-097138-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff387109</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d387109</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-097138-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff387109</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d387109</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-097138-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-097138-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-097138-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Sundarvan</name>
+      <description>Satellite Rd, Panchsheel Enclave, Jodhpur Tekra, Ahmedabad, Gujarat 380015</description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          72.5215051,23.0271298,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Polygon 2</name>
+      <styleUrl>#poly-097138-1200-77-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              72.5202759,23.0263349,0
+              72.5207158,23.0260091,0
+              72.5208231,23.0259449,0
+              72.520925,23.0258412,0
+              72.5209679,23.0257228,0
+              72.5211396,23.0255401,0
+              72.5213702,23.0256043,0
+              72.52144,23.0257524,0
+              72.5215097,23.0264189,0
+              72.5214614,23.0266608,0
+              72.521735,23.0272187,0
+              72.5212254,23.0274606,0
+              72.5202759,23.0263349,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
