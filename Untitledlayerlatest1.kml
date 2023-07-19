@@ -7,7 +7,7 @@
         <color>ff485579</color>
         <scale>1</scale>
         <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>https://raw.githubusercontent.com/poojaf/test/main/favicon.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -22,7 +22,7 @@
         <color>ff485579</color>
         <scale>1</scale>
         <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>https://raw.githubusercontent.com/poojaf/test/main/favicon.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -47,7 +47,7 @@
         <color>ff0051e6</color>
         <scale>1</scale>
         <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>https://raw.githubusercontent.com/poojaf/test/main/favicon.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -59,7 +59,7 @@
         <color>ff0051e6</color>
         <scale>1</scale>
         <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>https://raw.githubusercontent.com/poojaf/test/main/favicon.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -81,7 +81,7 @@
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>https://raw.githubusercontent.com/poojaf/test/main/favicon.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
@@ -94,7 +94,7 @@
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>https://raw.githubusercontent.com/poojaf/test/main/favicon.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
