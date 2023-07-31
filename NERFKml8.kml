@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Untitled layer</name>
+    <Style id="icon-1899-A52714-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-A52714-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-A52714">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-A52714-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-A52714-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-00FFFF-1200-0-nodesc-normal">
+      <LineStyle>
+        <color>ffffff00</color>
+        <width>0</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>00ffff00</color>
+        <fill>0</fill>
+        <outline>0</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-00FFFF-1200-0-nodesc-highlight">
+      <LineStyle>
+        <color>ffffff00</color>
+        <width>0</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>00ffff00</color>
+        <fill>0</fill>
+        <outline>0</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-00FFFF-1200-0-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-00FFFF-1200-0-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-00FFFF-1200-0-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-1200-255-nodesc-normal">
+      <LineStyle>
+        <color>ffd18800</color>
+        <width>0</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>dbff00ff</color>
+        <fill>1</fill>
+        <outline>0</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-0288D1-1200-255-nodesc-highlight">
+      <LineStyle>
+        <color>ffd18800</color>
+        <width>0</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>dbff00ff</color>
+        <fill>1</fill>
+        <outline>0</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-1200-255-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-1200-255-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-1200-255-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>NERF</name>
+      <description><![CDATA[LOT 4 COLEMAN ROAD,<br> ST KILDA, SOUTH AUSTRALIA,5110]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <Point>
+        <coordinates>
+          138.554784,-34.723688,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#poly-0288D1-1200-255-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              138.553114,-34.7226957,0
+              138.5544658,-34.7270341,0
+              138.5558391,-34.7264698,0
+              138.5565901,-34.7256233,0
+              138.5574055,-34.7247415,0
+              138.5588432,-34.7226251,0
+              138.5600448,-34.7222195,0
+              138.5593367,-34.7200678,0
+              138.5587788,-34.7202089,0
+              138.559165,-34.7212318,0
+              138.553114,-34.7226957,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Polygon 3</name>
+      <styleUrl>#poly-00FFFF-1200-0-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              138.524704,-34.700753,0
+              138.523245,-34.742305,0
+              138.621521,-34.743575,0
+              138.624525,-34.704846,0
+              138.613796,-34.700682,0
+              138.524704,-34.700753,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
